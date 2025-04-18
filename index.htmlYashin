@@ -1,0 +1,161 @@
+<html>
+  <head> </head>
+  <body>
+    <h2>Vote for next "Yashin" award winner!</h2>
+    <h3>Vote by Email!</h3>
+    Email:
+    <input type="email" id="email" required />
+    <br />
+    Your Vote:
+    <select id="vote" required>
+      <option value="Option1">Alisson</option>
+      <option value="Option2">Thibaut Courtois</option>
+      <option value="Option3">David Raya</option>
+      <option value="Option4">Gianluigi Donnarumma</option>
+      <option value="Option5">Jan Oblak</option>
+    </select>
+    <br />
+    <button onclick="submitVote()">Vote!</button>
+
+    <h2>Results :</h2>
+    <p>Alisson (Liverpool): <span id="option1Count">0</span> votes</p>
+<section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Matches:</td><td>22</td></tr>
+        <tr><td>Shoots Faced:</td><td>73</td</tr>
+        <tr><td>Saves:</td><td>54</td</tr>
+        <tr><td>Percent saves:</td><td>73.97%</td></tr>
+        <tr><td>Clean Sheets:</td><td>9</td></tr>
+        <tr><td>Goals Conceded:</td><td>17</td</tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="player-info">
+    <img src="https://www.thisisanfield.com/wp-content/uploads/2023-04-17-217-Leeds_Liverpool-600x400.jpg" alt="Player Image">
+  </div>
+</section>
+
+    <p>Thibaut Courtois (Real Madrid): <span id="option2Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Matches:</td><td>25</td></tr>
+        <tr><td>Shoots Faced:</td><td>73</td</tr>
+        <tr><td>Saves:</td><td>51</td</tr>
+        <tr><td>Percent saves:</td><td>72.8%</td></tr>
+        <tr><td>Clean Sheets:</td><td>9</td></tr>
+        <tr><td>Goals Conceded:</td><td>21</td</tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="player-info">
+    <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2024/10/23/351829.jpg" alt="Player Image" style="height:422px">
+  </div>
+</section>
+
+
+    <p>David Raya (Arsenal): <span id="option3Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Matches:</td><td>32</td></tr>
+        <tr><td>Shoots Faced:</td><td>102</td</tr>
+        <tr><td>Saves:</td><td>75</td</tr>
+        <tr><td>Percent saves:</td><td>73.53%</td></tr>
+        <tr><td>Clean Sheets:</td><td>11</td></tr>
+        <tr><td>Goals Conceded:</td><td>25</td</tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="player-info">
+    <img src="https://marcetfootball.com/wp-content/uploads/2025/01/arsenal-david-raya-aston-villa-1536x1024-1.jpg" alt="Player Image" style="height:422px">
+  </div>
+</section>
+
+
+    <p>Gianluigi Donnarumma (PSG): <span id="option4Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Matches:</td><td>21</td></tr>
+        <tr><td>Shoots Faced:</td><td>67</td</tr>
+        <tr><td>Saves:</td><td>47</td</tr>
+        <tr><td>Percent saves:</td><td>70.15%</td></tr>
+        <tr><td>Clean Sheets:</td><td>4</td></tr>
+        <tr><td>Goals Conceded:</td><td>16</td</tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="player-info">
+    <img src="https://s.yimg.com/ny/api/res/1.2/G3j_ijsZx4gFT5667Beb8A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/football_italia_articles_132/5350c5d8d8afa45bdb02c6e9c9d115b3" alt="Player Image" style="height:422px">
+  </div>
+</section>
+
+
+    <p>Jan Oblak (Atletico Madrid)
+: <span id="option5Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Matches:</td><td>30</td></tr>
+        <tr><td>Shoots Faced:</td><td>93</td</tr>
+        <tr><td>Saves:</td><td>69</td</tr>
+        <tr><td>Percent saves:</td><td>74.19%</td></tr>
+        <tr><td>Clean Sheets:</td><td>12</td></tr>
+        <tr><td>Goals Conceded:</td><td>23</td</tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="player-info">
+    <img src="https://e0.365dm.com/21/03/1600x900/skysports-jan-oblak-atletico-madrid_5298826.jpg?20210309164433" alt="Player Image" style="height:422px">
+  </div>
+</section>
+    
+</body>
+</html>
