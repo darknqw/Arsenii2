@@ -1,0 +1,34 @@
+function submitVote() {
+         var email = document.getElementById("email").value;
+         var vote = document.getElementById("vote").value;
+ 
+         if (localStorage.getItem(email)) {
+           alert("This email has already voted.");
+         } else {
+           localStorage.setItem("yashin_award_" + email, vote);
+           alert("Your vote has been submitted successfully.");
+           updateResults();
+         }
+       }
+ 
+       function updateResults() {
+         var counts = { Option1: 0, Option2: 0, Option3: 0, Option4: 0, Option5: 0 };
+ 
+         for (var i = 0; i < localStorage.length; i++) {
+           var key = localStorage.key(i);
+           if (key.startsWith("yashin_award_")) {
+           var vote = localStorage.getItem(key);
+           if (counts[vote] !== undefined) {
+             counts[vote]++;
+             }
+           }
+         }
+ 
+         document.getElementById("option1Count").innerText = counts["Option1"];
+         document.getElementById("option2Count").innerText = counts["Option2"];
+         document.getElementById("option3Count").innerText = counts["Option3"];
+         document.getElementById("option4Count").innerText = counts["Option4"];
+         document.getElementById("option5Count").innerText = counts["Option5"];
+       }
+
+       updateResults();
