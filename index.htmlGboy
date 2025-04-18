@@ -1,0 +1,32 @@
+<html>
+   <head> </head>
+   <body>
+     <h2>Vote for next "Golden Boy" award winner!</h2>
+     <h3>vote by email:</h3>
+     Email:
+     <input type="email" id="email" required />
+   
+     Your Vote:
+     <select id="vote" required>
+       <option value="Option1">Pau Cubarsi</option>
+       <option value="Option2">Desire Doue</option>
+       <option value="Option3">Warren Zaire-Emery</option>
+       <option value="Option4">Ethan Nwaneri</option>
+       <option value="Option5">Dean Huijsen</option>
+     </select>
+     
+     <button onclick="submitVote()">Vote!</button>
+ 
+     <h2>Results :</h2>
+     <p>Pau Cubarsi | 18yo | Barcelona: <span id="option1Count">0</span> votes</p>
+     <img src="https://static01.nyt.com/athletic/uploads/wp/2024/08/27103551/GettyImages-2166567783-1-scaled.jpg" alt="Cubarsi" height="300">
+     <p>Desire Doue | 19yo | Paris Saint-Germain: <span id="option2Count">0</span> votes</p>
+     <img src="https://cdn.vox-cdn.com/thumbor/9EsdBnjoyU-HaTf1Qjt0VgfZ37A=/0x0:1862x1241/1200x800/filters:focal(843x312:1139x608)/cdn.vox-cdn.com/uploads/chorus_image/image/73973264/2204621494.0.jpg" alt="Doue" height="300">
+     <p>Warren Zaire-Emery | 19yo | Paris Saint-Germain: <span id="option3Count">0</span> votes</p>
+     <img src="https://www.psg.fr/media/253212/zaire-emery.jpg?center=0.435,0.53333333333333333&mode=crop&width=800&height=450&quality=60" alt="Warren" height="300">
+     <p>Ethan Nwaneri | 17yo | Arsenal: <span id="option4Count">0</span> votes</p>
+     <img src="https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/nwaneri-celeb-brighton_kh0qcdxr.png?h=3c8f2bed&auto=webp&itok=NzSUL3Bm" alt="Ethan" height="300">
+     <p>Dean Huijsen | 19yo | Bournemouth: <span id="option5Count">0</span> votes</p>
+     <img src="https://cdn.vox-cdn.com/thumbor/C_0z1ti8hLk8OcHfw-TDtPuqg5o=/0x0:2499x2500/1200x800/filters:focal(1043x490:1441x888)/cdn.vox-cdn.com/uploads/chorus_image/image/73897194/2198494410.0.jpg" alt="Dean" height="300">
+   </body>
+ </html>
