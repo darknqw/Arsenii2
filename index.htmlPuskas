@@ -1,0 +1,44 @@
+<html>
+  <head> </head>
+  <body>
+    <h2>Vote for 2024/25 "Puskás" award winner !</h2>
+    <h3>vote by email:</h3>
+    Email:
+    <input type="email" id="email" required />
+    <br />
+    Your Vote:
+    <select id="vote" required>
+      <option value="Option1">Declan Rice</option>
+      <option value="Option2">Luka Modric</option>
+      <option value="Option3">Federico Valverde</option>
+      <option value="Option4">Christian Pulisic</option>
+      <option value="Option5">Mario Engels</option>
+    </select>
+    <br />
+    <button onclick="submitVote()">Vote!</button>
+
+    <h2>Results :</h2>
+    <p>Declan Rice vs "Real Madrid" goal: <span id="option1Count">0</span> votes</p>
+    <iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/gv9mSOoIUO0" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+    <p>Luka Modric vs "Girona" goal: <span id="option2Count">0</span> votes</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/jtINpaPrdwk?si=9D8MVYxgV5K6k1yS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Federico Calverde vs "Sevilla" goal: <span id="option3Count">0</span> votes</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BpqqnI69iZY?si=xFZf9NhzYJJS02aP&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Christian Pulisic vs "Brugge" goal: <span id="option4Count">0</span> votes</p>
+    <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/sJ35egUhUoE?modestbranding=1&rel=0&controls=0&showinfo=0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="autoplay; encrypted-media; clipboard-write; picture-in-picture"
+  allowfullscreen>
+</iframe>
+    <p>Mario Engels vs "Ajax" goal: <span id="option5Count">0</span> votes</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d877TQveuRY?si=4AJqYbeO-K9AUCm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </body>
+</html>
