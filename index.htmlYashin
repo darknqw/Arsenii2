@@ -1,7 +1,13 @@
 <html>
-  <head> </head>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
+ </head>
   <body>
     <h2>Vote for next "Yashin" award winner!</h2>
+learn more about <a href="http://172.27.67.33/~darknqw/yashinaward_info/">Yashin Award...</a>
     <h3>Vote by Email!</h3>
     Email:
     <input type="email" id="email" required />
