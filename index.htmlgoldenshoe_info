@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>European Golden Shoe</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .fun-fact {
+      background: #ffeaa7;
+      border-left: 5px solid #fdcb6e;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      font-style: italic;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>European Golden Shoe</h1>
+
+  <div class="section">
+    <h2>What is the Golden Shoe?</h2>
+    <p>
+      The European Golden Shoe is an annual football award presented to the top goalscorer in league matches from the 
+      top division of every European national league. Originally called the <em>Soulier d'Or</em>, the award was 
+      introduced in 1968 and is currently awarded based on a points system reflecting the difficulty of each league.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>📌Key Facts</h2>
+    <ul>
+      <li><strong>📅Inception:</strong> 1968</li>
+      <li><strong>👤Presented By:</strong> European Sports Media (ESM)</li>
+      <li><strong>Eligibility:</strong> Players in top-tier European leagues</li>
+      <li><strong>🗳️Scoring System:</strong>
+        <ul>
+          <li>2 points per goal in top 5 leagues (e.g., Premier League, La Liga)</li>
+          <li>1.5 points per goal in mid-ranked leagues</li>
+          <li>1 point per goal in lower-ranked leagues</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🥇Notable Winners</h2>
+    <ul>
+      <li><strong>Lionel Messi</strong> – Record 6-time winner with FC Barcelona</li>
+      <li><strong>Cristiano Ronaldo </strong> – 4-time winner across different leagues</li>
+      <li><strong>Erling Haaland </strong> – 2022–23 winner with Manchester City</li>
+    </ul>
+  </div>
+
+  <div class="section fun-fact">
+    <strong>Fun Fact:</strong> Only league goals count toward the Golden Shoe — not goals in cups or international matches!
+  </div>
+
+</body>
+</html>
