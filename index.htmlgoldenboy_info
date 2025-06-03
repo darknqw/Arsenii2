@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golden Boy Award</title>
+<style>
+ body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #d4af37;
+      font-size: 2.2em;
+    }
+
+    h2 {
+      color: #444;
+      margin-top: 30px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    .fun-fact {
+      background-color: #fff3cd;
+      border-left: 6px solid #ffeeba;
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-style: italic;
+    }
+
+    .emoji {
+      font-size: 1.2em;
+      margin-right: 5px;
+    }
+  </style>
+  </head> 
+<body>
+  <div class="container">
+    <h1>🏆 Golden Boy Award – Overview</h1>
+
+    <h2>📜 History</h2>
+    <ul>
+      <li><strong>Established:</strong> 2003 by Tuttosport (Italy)</li>
+      <li><strong>Eligibility:</strong> Players under the age of 21 playing in a top-tier European league</li>
+      <li><strong>Voting:</strong> Selected by journalists from top European newspapers (e.g., <em>L'Équipe</em>, <em>Bild</em>, <em>The Times</em>, <em>Marca</em>)</li>
+    </ul>
+
+    <h2>🥇 Criteria</h2>
+    <ul>
+      <li>Individual <strong>performance and impact</strong> during the year</li>
+      <li><strong>Talent</strong>, potential, and consistency</li>
+      <li><strong>Contribution</strong> to club and/or national team success</li>
+    </ul>
+
+    <h2>🏅 Notable Winners</h2>
+    <ul>
+      <li>Lionel Messi (2005)</li>
+      <li>Wayne Rooney (2004)</li>
+      <li>Cesc Fàbregas (2006)</li>
+      <li>Sergio Agüero (2007)</li>
+      <li>Paul Pogba (2013)</li>
+      <li>Kylian Mbappé (2017)</li>
+      <li>Erling Haaland (2020)</li>
+      <li>Jude Bellingham (2023)</li>
+    </ul>
+
+    <div class="fun-fact">
+      📌 <strong>Fun Fact:</strong> No player has ever won the Golden Boy award more than once!
+    </div>
+  </div>
+</body>
+</html>
