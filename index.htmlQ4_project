@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="mystyle.css">
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('closeModal').addEventListener('click', function () {
+    document.getElementById('disclaimerModal').style.display = 'none';
+  });
+});
+  </script>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
+<body>
+<div id="disclaimerModal" class="modal">
+  <div class="modal-content">
+    <p style="color:red">
+      Disclaimer: The options presented on this website's voting pages reflect my personal opinions only. They are not affiliated with, endorsed by, or representative of the views of journalists, official organizations, or any related publications.
+    </p>
+    <button id="closeModal">I Understand</button>
+  </div>
+</div>
+
+<div class="container">
+  <img class="rounded-image" src="https://img.freepik.com/premium-photo/soccer-stadium-defocus-background-evening-arena-with-crowd-fans-d-illustration_336913-361.jpg" alt="Q4" style="height:422px">
+  <div class="centered">Welcome to my Quarter4 Project !!!</div>
+  <div class="centered-left">SoccerAwardPredict</div>
+</div>
+<p style="font-family: Arial">This is a web-site, where you can predict and vote for next winner of most vaulable individual soccer awards.</p>
+<div style="font-family: Arial">Also, you can read and learn about the awards and nominees.</div>
+
+<div class="awards-grid">
+  <a href="http://172.27.67.33/~darknqw/ballon_dor/" class="award-card">
+    <img src="https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/03/ballon-d-or-date-how-it-works-and-current-favourites.jpg" alt="Ballon d'Or">
+    <span>Ballon d'Or</span>
+  </a>
+  <a href="http://172.27.67.33/~darknqw/Golden_Shoe/" class="award-card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/2/2b/Golden_Shoe%2C_Lionel_Messi_2012-2013.jpg" alt="Golden Shoe">
+    <span>Golden Shoe</span>
+  </a>
+  <a href="http://172.27.67.33/~darknqw/Golden_Boy/" class="award-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3dWwvtoFX56em9WMgZ6I_3W0qv0IJpsGjNg&s" alt="Golden Boy">
+    <span>Golden Boy</span>
+  </a>
+  <a href="http://172.27.67.33/~darknqw/Yashin_Award/" class="award-card">
+    <img src="https://i.namu.wiki/i/U2L2PZx3-a3h4v-gJpPlOvG4QjCJOlaZVUVXrD7_SEkvD9CJbRsnaMf6WtmP7G0X830GfD-XG0d_tSdzLNtrTQ.webp" alt="Yashin Award">
+    <span>Yashin Award</span>
+  </a>
+</div>
+<div class="center-button">
+  <a href="http://172.27.67.33/~darknqw/puskas/" class="award-card">
+    <img src="https://imgsrv2.voi.id/ucl9uqj5SR70vVamoRncSGip9SZ5nYzRWtxfN-29pGg/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yNTg5MzIvMjAyMzAyMjgxNTQyLW1haW4uY3JvcHBlZF8xNjc3NjQ0MTczLnBuZw.jpg" alt="Puskás Award">
+    <span>Puskas Award</span>
+  </a>
+</div>
+<br>
+  <br>
+  <br>
+  <br>
+  <div class="bottom-citation">
+  "-What will you do to do 100 push-ups? <br>
+  -Do push-ups. <br>
+  -And what to learn Java? <br>
+  -That's right, study Java." 
+    <br><strong> <em>Jed Williams</em></strong>
+</div>
+<br>
+<br>
+<br>
+<div class="bottom-left">
+  Worked By:<strong><em>Arsenii Sharanov</em></strong>
+  </div>
+</div>
+</body>
+</html>
