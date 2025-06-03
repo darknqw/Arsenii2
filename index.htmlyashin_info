@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🧤 Yashin Trophy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #ecf9f1;
+      color: #2e463e;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #14532d;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #ffffff;
+      border-radius: 12px;
+      border-left: 5px solid #10b981;
+      box-shadow: 0 8px 20px rgba(0, 128, 0, 0.08);
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .fun-fact {
+      background: #d1fae5;
+      border-left: 5px solid #047857;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      font-style: italic;
+      border-radius: 8px;
+    }
+
+    strong {
+      color: #064e3b;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧤 Yashin Trophy</h1>
+
+  <div class="section">
+    <h2>⚽ What is the Yashin Trophy?</h2>
+    <p>
+      The <strong>Yashin Trophy</strong> is an annual football award presented to the <strong>best performing goalkeeper</strong> in the world. 
+      Named after legendary Soviet goalkeeper <strong>Lev Yashin</strong> — the only goalkeeper to ever win the Ballon d'Or — 
+      this award honors elite performances <em>between the posts</em> on the global stage 🌍.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>📌 Key Facts</h2>
+    <ul>
+      <li>📅 <strong>Inception:</strong> 2019</li>
+      <li>🏆 <strong>Presented By:</strong> <em>France Football</em> magazine</li>
+      <li>🎖️ <strong>Named After:</strong> Lev Yashin (Ballon d’Or winner in 1963)</li>
+      <li>🌐 <strong>Eligibility:</strong> Goalkeepers from all over the world</li>
+      <li>🧠 <strong>Criteria:</strong> Performance, clean sheets, consistency, and big-game impact</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🥇 Notable Winners</h2>
+    <ul>
+      <li>🇧🇷 <strong>Alisson Becker</strong> – First winner in 2019 (Liverpool)</li>
+      <li>🇮🇹 <strong>Gianluigi Donnarumma</strong> – 2021 winner after Euro 2020 heroics</li>
+      <li>🇧🇪 <strong>Thibaut Courtois</strong> – 2022 winner for Champions League dominance</li>
+      <li>🇦🇷 <strong>Emiliano Martínez</strong> – 2023 winner after World Cup performance</li>
+    </ul>
+  </div>
+
+  <div class="section fun-fact">
+    ✨ <strong>Fun Fact:</strong> The Yashin Trophy is voted on by the same panel of journalists who choose the Ballon d'Or — keeping it prestigious and competitive! 🧤🌍
+  </div>
+
+</body>
+</html>
