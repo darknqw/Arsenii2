@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ballon d'Or Info</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #d4af37;
+      font-size: 2.5em;
+    }
+    h2 {
+      color: #444;
+      margin-top: 30px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .fun-fact {
+      background-color: #fff3cd;
+      border-left: 6px solid #ffeeba;
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-style: italic;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background-color: #d4af37;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🏅 Ballon d'Or Overview</h1>
+
+    <h2>What is the Ballon d'Or?</h2>
+    <p>
+      The <strong>Ballon d'Or</strong> (French for "Golden Ball") is one of the most prestigious individual awards in football (soccer). It is awarded annually to the best male footballer in the world. The award has been presented by <em>France Football</em>, a French magazine, since 1956.
+    </p>
+
+    <h2>Creation of the Ballon d'Or</h2>
+    <p>
+      The award was created by French journalist <strong>Gabriel Hanot</strong>, and first awarded in 1956. Initially, only European players were eligible, but in 1995, eligibility expanded worldwide. From 2010 to 2016, it merged with FIFA’s award to become the <em>FIFA Ballon d'Or</em>, but returned to its independent form in 2016.
+    </p>
+
+    <h2>Number of Winners</h2>
+    <p>
+      As of 2025, there have been <strong>66 Ballon d'Or winners</strong>. Some of the most iconic names include:
+      <ul>
+        <li><strong>Lionel Messi</strong> – 8 wins (record holder)</li>
+        <li><strong>Cristiano Ronaldo</strong> – 5 wins</li>
+        <li><strong>Michel Platini, Johan Cruyff, Marco van Basten</strong> – 3 wins each</li>
+      </ul>
+      The most recent winner (2024) was <strong>Lionel Messi</strong>, marking his 8th win.
+    </p>
+
+    <h2>📊 Every Ballon d'Or Winner</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Winner</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>2024</td><td>Rodri</td><td>1170</td></tr>
+        <tr><td>2023</td><td>Lionel Messi</td><td>462</td></tr>
+        <tr><td>2022</td><td>Karim Benzema</td><td>549</td></tr>
+        <tr><td>2021</td><td>Lionel Messi</td><td>613</td></tr>
+        <tr><td>2020</td><td>No one</td><td>—</td></tr>
+        <tr><td>2019</td><td>Lionel Messi</td><td>686</td></tr>
+        <tr><td>2018</td><td>Luka Modric</td><td>753</td></tr>
+        <tr><td>2017</td><td>Cristiano Ronaldo</td><td>946</td></tr>
+        <tr><td>2016</td><td>Cristiano Ronaldo</td><td>745</td></tr>
+        <tr><td>2015</td><td>Lionel Messi</td><td>41.33%</td></tr>
+        <tr><td>2014</td><td>Cristiano Ronaldo</td><td>37.66%</td></tr>
+        <tr><td>2013</td><td>Cristiano Ronaldo</td><td>27.99%</td></tr>
+        <tr><td>2012</td><td>Lionel Messi</td><td>41.60%</td></tr>
+        <tr><td>2011</td><td>Lionel Messi</td><td>47.88%</td></tr>
+        <tr><td>2010</td><td>Lionel Messi</td><td>22.65%</td></tr>
+        <tr><td>2009</td><td>Lionel Messi</td><td>473</td></tr>
+        <tr><td>2008</td><td>Cristiano Ronaldo</td><td>446</td></tr>
+        <tr><td>2007</td><td>Kaka</td><td>444</td></tr>
+        <tr><td>2006</td><td>Fabio Cannavaro</td><td>173</td></tr>
+        <tr><td>2005</td><td>Ronaldinho</td><td>225</td></tr>
+        <tr><td>2004</td><td>Andriy Shevchenko</td><td>175</td></tr>
+        <tr><td>2003</td><td>Pavel Nedved</td><td>190</td></tr>
+        <tr><td>2002</td><td>Ronaldo</td><td>169</td></tr>
+        <tr><td>2001</td><td>Michael Owen</td><td>176</td></tr>
+        <tr><td>2000</td><td>Luis Figo</td><td>197</td></tr>
+        <tr><td>1999</td><td>Rivaldo</td><td>219</td></tr>
+        <tr><td>1998</td><td>Zinedine Zidane</td><td>244</td></tr>
+        <tr><td>1997</td><td>Ronaldo</td><td>222</td></tr>
+        <tr><td>1996</td><td>Matthias Sammer</td><td>144</td></tr>
+        <tr><td>1995</td><td>George Weah</td><td>144</td></tr>
+        <tr><td>1994</td><td>Hristo Stoichkov</td><td>210</td></tr>
+        <tr><td>1993</td><td>Roberto Baggio</td><td>142</td></tr>
+        <tr><td>1992</td><td>Marco van Basten</td><td>98</td></tr>
+        <tr><td>1991</td><td>Jean-Pierre Papin</td><td>141</td></tr>
+        <tr><td>1990</td><td>Lothar Matthaus</td><td>137</td></tr>
+        <tr><td>1989</td><td>Marco van Basten</td><td>129</td></tr>
+        <tr><td>1988</td><td>Marco van Basten</td><td>129</td></tr>
+        <tr><td>1987</td><td>Ruud Gullit</td><td>106</td></tr>
+        <tr><td>1986</td><td>Igor Belanov</td><td>84</td></tr>
+        <tr><td>1985</td><td>Michel Platini</td><td>127</td></tr>
+        <tr><td>1984</td><td>Michel Platini</td><td>110</td></tr>
+        <tr><td>1983</td><td>Michel Platini</td><td>110</td></tr>
+        <tr><td>1982</td><td>Paolo Rossi</td><td>115</td></tr>
+        <tr><td>1981</td><td>Karl-Heinz Rummenigge</td><td>106</td></tr>
+        <tr><td>1980</td><td>Karl-Heinz Rummenigge</td><td>122</td></tr>
+        <tr><td>1979</td><td>Kevin Keegan</td><td>118</td></tr>
+        <tr><td>1978</td><td>Kevin Keegan</td><td>87</td></tr>
+        <tr><td>1977</td><td>Allan Simonsen</td><td>74</td></tr>
+        <tr><td>1976</td><td>Franz Beckenbauer</td><td>91</td></tr>
+        <tr><td>1975</td><td>Oleg Blokhin</td><td>122</td></tr>
+        <tr><td>1974</td><td>Johan Cruyff</td><td>116</td></tr>
+        <tr><td>1973</td><td>Johan Cruyff</td><td>96</td></tr>
+        <tr><td>1972</td><td>Franz Beckenbauer</td><td>81</td></tr>
+        <tr><td>1971</td><td>Johan Cruyff</td><td>116</td></tr>
+        <tr><td>1970</td><td>Gerd Muller</td><td>77</td></tr>
+        <tr><td>1969</td><td>Gianni Rivera</td><td>83</td></tr>
+        <tr><td>1968</td><td>George Best</td><td>61</td></tr>
+        <tr><td>1967</td><td>Florian Albert</td><td>68</td></tr>
+        <tr><td>1966</td><td>Bobby Charlton</td><td>81</td></tr>
+        <tr><td>1965</td><td>Eusebio</td><td>67</td></tr>
+        <tr><td>1964</td><td>Denis Law</td><td>61</td></tr>
+        <tr><td>1963</td><td>Lev Yashin</td><td>73</td></tr>
+        <tr><td>1962</td><td>Josef Masopust</td><td>65</td></tr>
+        <tr><td>1961</td><td>Omar Sivori</td><td>46</td></tr>
+        <tr><td>1960</td><td>Luis Suarez</td><td>54</td></tr>
+        <tr><td>1959</td><td>Alfredo Di Stefano</td><td>80</td></tr>
+        <tr><td>1958</td><td>Raymond Kopa</td><td>71</td></tr>
+        <tr><td>1957</td><td>Alfredo Di Stefano</td><td>72</td></tr>
+        <tr><td>1956</td><td>Stanley Matthews</td><td>47</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
