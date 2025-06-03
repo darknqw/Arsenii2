@@ -1,7 +1,13 @@
 <html>
-   <head> </head>
+   <head> 
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="script.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
    <body>
      <h2>Vote for next Golden Shoe winner!</h2>
+learn more about <a href="http://172.27.67.33/~darknqw/goldenshoeinfo/">Golden Shoe...</a>
      <h3>vote by email:</h3>
      Email:
      <input type="email" id="email" required />
@@ -12,21 +18,113 @@
        <option value="Option2">Robert Lewandowski</option>
        <option value="Option3">Kylian Mbappe</option>
        <option value="Option4">Harry Kane</option>
-       <option value="Option5">Ousmane Dembele</option>
+       <option value="Option5">Viktor Gyökeres</option>
      </select>
      <br />
      <button onclick="submitVote()">Vote!</button>
  
      <h2>Results :</h2>
-     <p>Mohamed Salah | Liverpool | 27 goals: <span id="option1Count">0</span> votes</p>
-<img src="https://imageio.forbes.com/specials-images/imageserve/627be91e09849a3247a3642a/0x0.jpg?format=jpg&crop=1108,1109,x741,y130,safe&height=416&width=416&fit=bounds" alt="Salah" height="300">    
-     <p>Robert Lewandowski | Barcelona | 25 goals: <span id="option2Count">0</span> votes</p>
-<img src="https://s.yimg.com/ny/api/res/1.2/xkLc4YaaPtjASfD_9lytZQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/get_spanish_football_news_articles_403/e713c81a8f1d6e0bb430d74995253585" alt="Lewa" height="300">    
-     <p>Kylian Mbappe | Real Madrid | 22 goals: <span id="option3Count">0</span> votes</p>
-<img src="https://imageio.forbes.com/specials-images/imageserve/626c7cf3616c1112ae834a2b/0x0.jpg?format=jpg&crop=1603,1603,x1533,y577,safe&height=416&width=416&fit=bounds" alt="Mbappe" height="300">    
-     <p>Harry Kane | Bayern Munich | 23 goals: <span id="option4Count">0</span> votes</p> 
-<img src="https://media.cnn.com/api/v1/images/stellar/prod/231218105021-01-harry-kane-121723.jpg?c=original" alt="Kane" height="300">     
-     <p>Ousmane Dembele | Paris Saint-Germain | 21 goals: <span id="option5Count">0</span> votes</p>
-<img src="https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_50,w_2404,h_1352/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/503/01jh2yrxawtrqepb6xcp.jpg" alt="Dembele" height="300">
+     <p>Mohamed Salah(Liverpool): <span id="option2Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Goals:</td><td>29</td></tr>
+        <tr><td>Points:</td><td>58</td</tr>
+      </tbody>
+    </table>
+  </div>
+   <div class="player-info">
+    <img src="https://imageio.forbes.com/specials-images/imageserve/627be91e09849a3247a3642a/0x0.jpg?format=jpg&crop=1108,1109,x741,y130,safe&height=416&width=416&fit=bounds" alt="Player Image" style="height:422px">
+  </div>
+</section>
+    
+     <p>Robert Lewandowski(Barcelona): <span id="option2Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Goals:</td><td>27</td></tr>
+        <tr><td>Points:</td><td>54</td</tr>
+      </tbody>
+    </table>
+  </div>
+   <div class="player-info">
+    <img src="https://s.yimg.com/ny/api/res/1.2/xkLc4YaaPtjASfD_9lytZQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/get_spanish_football_news_articles_403/e713c81a8f1d6e0bb430d74995253585" alt="Player Image" style="height:422px">
+  </div>
+</section>
+    
+     <p>Kylian Mbappe(Real Madrid): <span id="option2Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Goals:</td><td>31</td></tr>
+        <tr><td>Points:</td><td>62</td</tr>
+      </tbody>
+    </table>
+  </div>
+   <div class="player-info">
+    <img src="https://imageio.forbes.com/specials-images/imageserve/626c7cf3616c1112ae834a2b/0x0.jpg?format=jpg&crop=1603,1603,x1533,y577,safe&height=416&width=416&fit=bounds" alt="Player Image" style="height:422px">
+  </div>
+</section>    
+     <p>Harry Kane(Bayern): <span id="option2Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Goals:</td><td>26</td></tr>
+        <tr><td>Points:</td><td>52</td</tr>
+      </tbody>
+    </table>
+  </div>
+   <div class="player-info">
+    <img src="https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-16x9-seo/v1747497414/cms/public/images/fcbayern-com/homepage/Saison-24-25/Spieler/Kane/250517-harry-kane-torjaegerkanone-mel.jpg" alt="Player Image" style="height:422px">
+  </div>
+</section>     
+     <p>Viktor Gyökeres(Sporting): <span id="option2Count">0</span> votes</p>
+    <section class="player">
+  <div class="player-stats-container">
+    <table class="player-stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Goals:</td><td>39</td></tr>
+        <tr><td>Points:</td><td>58.5</td</tr>
+      </tbody>
+    </table>
+  </div>
+   <div class="player-info">
+    <img src="https://www.portugal.com/wp-content/uploads/2025/05/Depositphotos_741263084_L-696x464.jpg" alt="Player Image" style="height:422px">
+  </div>
+</section>
    </body>
  </html>
