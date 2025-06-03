@@ -1,7 +1,11 @@
 <html>
-   <head> </head>
+   <head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="mystyle.css">
+</head>
    <body>
      <h2>Vote for next "Ballon D'or" award winner!</h2>
+    learn more about <a href="http://172.27.67.33/~darknqw/ballondor_info/">Ballon D'or...</a>
      <h3>vote by email:</h3>
      Email:
      <input type="email" id="email" required />
@@ -9,14 +13,14 @@
      Your Vote:
      <select id="vote" required>
        <option value="Option1">Raphinha</option>
-       <option value="Option2">Kylian Mbappe</option>
+       <option value="Option2">Gianluigi Donnarumma </option>
        <option value="Option3">Lamine Yamal</option>
-       <option value="Option4">Robert Lewandowski</option>
+       <option value="Option4">Kylian Mbappe</option>
        <option value="Option5">Ousmane Dembele</option>
      </select>
      
      <button onclick="submitVote()">Vote!</button>
- 
+
      <h2>Results :</h2>
      <p>Raphinha: <span id="option1Count">0</span> votes</p>
      <section class="player">
@@ -37,14 +41,13 @@
       </tbody>
     </table>
   </div>
-</section>
   <div class="player-info">
     <img src="https://imageio.forbes.com/specials-images/imageserve/67caef670f55c9c287853f7f/FC-Barcelona-star-Raphinha-can-now-call-himself-one-of-the-best-players-in-the-world-/960x0.jpg?format=jpg&width=550" alt="Player Image">
   </div>
 </section>
 
      
-     <p>Kylian Mbappe: <span id="option2Count">0</span> votes</p>
+     <p>Gianluigi Donnarumma : <span id="option2Count">0</span> votes</p>
      <section class="player">
   <div class="player-stats-container">
     <table class="player-stats">
@@ -55,17 +58,19 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Matches:</td><td>48</td></tr>
-        <tr><td>Goals:</td><td>32</td></tr>
-        <tr><td>Assists:</td><td>4</td></tr>
-        <tr><td>Pass Accuracy:</td><td>83.85%</td</tr>
-        <tr><td>Awards</td><td>not available yet</td></tr>
+        <tr><td>Matches:</td><td>39</td></tr>
+        <tr><td>Shoots Faced:</td><td>72</td></tr>
+        <tr><td>Saves:</td><td>48</td></tr>
+        <tr><td>Percent saves:</td><td>66.67%</td></tr>
+        <tr><td>Clean Sheets:</td><td>12</td></tr>
+        <tr><td>Goals Conceded</td><td>39</td></tr>
+        <tr><td>Awards</td><td>Won Ligue 1 & Trophee des Champions.</td></tr>
       </tbody>
     </table>
   </div>
 
   <div class="player-info">
-    <img src="https://imageio.forbes.com/specials-images/imageserve/626c7cf3616c1112ae834a2b/0x0.jpg?format=jpg&crop=1603,1603,x1533,y577,safe&height=416&width=416&fit=bounds" alt="Player Image">
+    <img src="https://s.yimg.com/ny/api/res/1.2/G3j_ijsZx4gFT5667Beb8A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/football_italia_articles_132/5350c5d8d8afa45bdb02c6e9c9d115b3" alt="Player Image">
   </div>
 </section>
 
@@ -80,11 +85,11 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Matches:</td><td>45</td></tr>
-        <tr><td>Goals:</td><td>14</td></tr>
-        <tr><td>Assists:</td><td>21</td></tr>
+        <tr><td>Matches:</td><td>55</td></tr>
+        <tr><td>Goals:</td><td>18</td></tr>
+        <tr><td>Assists:</td><td>25</td></tr>
         <tr><td>Pass Accuracy:</td><td>79.55%</td</tr>
-        <tr><td>Awards</td><td>Won Supercopa de Espana.</td></tr>
+        <tr><td>Awards</td><td>Won Supercopa de Espana, Copa Del rey winner, La Liga winner.</td></tr>
       </tbody>
     </table>
   </div>
@@ -94,7 +99,7 @@
   </div>
 </section>
 
-     <p>Robert Lewandowski: <span id="option4Count">0</span> votes</p>
+     <p>Kylian Mbappe: <span id="option4Count">0</span> votes</p>
      <section class="player">
   <div class="player-stats-container">
     <table class="player-stats">
@@ -105,17 +110,17 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Matches:</td><td>47</td></tr>
-        <tr><td>Goals:</td><td>40</td></tr>
-        <tr><td>Assists:</td><td>3</td></tr>
-        <tr><td>Pass Accuracy:</td><td>72.8%</td</tr>
-        <tr><td>Awards</td><td>Won Supercopa de Espana.</td></tr>
+        <tr><td>Matches:</td><td>55</td></tr>
+        <tr><td>Goals:</td><td>43</td></tr>
+        <tr><td>Assists:</td><td>5</td></tr>
+        <tr><td>Pass Accuracy:</td><td>85%</td</tr>
+        <tr><td>Awards</td><td>Won UEFA Super Cup & Intercontinental Cup.</td></tr>
       </tbody>
     </table>
   </div>
 
   <div class="player-info">
-    <img src="" alt="Player Image">
+    <img src="https://imageio.forbes.com/specials-images/imageserve/626c7cf3616c1112ae834a2b/0x0.jpg?format=jpg&crop=1603,1603,x1533,y577,safe&height=416&width=416&fit=bounds" alt="Player Image" style="height:422px">
   </div>
 </section>
 
@@ -130,9 +135,9 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Matches:</td><td>42</td></tr>
-        <tr><td>Goals:</td><td>32</td></tr>
-        <tr><td>Assists:</td><td>11</td></tr>
+        <tr><td>Matches:</td><td>48</td></tr>
+        <tr><td>Goals:</td><td>33</td></tr>
+        <tr><td>Assists:</td><td>13</td></tr>
         <tr><td>Pass Accuracy:</td><td>77.37%</td</tr>
         <tr><td>Awards</td><td>Won Ligue 1 & Trophee des Champions</td></tr>
       </tbody>
@@ -145,4 +150,4 @@
 </section>
 
    </body>
- </html>
+</html>
