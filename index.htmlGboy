@@ -1,7 +1,11 @@
 <html>
-   <head> </head>
+   <head> 
+  <script src="script.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
    <body>
      <h2>Vote for next "Golden Boy" award winner!</h2>
+learn more about <a href="http://172.27.67.33/~darknqw/GoldenBoy_info/">Golden Boy</a> award...
      <h3>vote by email:</h3>
      Email:
      <input type="email" id="email" required />
