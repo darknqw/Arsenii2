@@ -1,0 +1,104 @@
+<!DOCTYPE>
+<html>
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="mystyle.css">
+  <meta charset="UTF-8" />
+  <meta name="viewpoint" content="width=device-wigth, initial-scale=1.0"/>
+<title>🌠Puskas Award </title>
+<style>
+  body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #ADD8E6;
+      color: #ADD8E6;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00008b;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #ADD8E6;
+      border-radius: 12px;
+      border-left: 5px solid #00008b;
+      box-shadow: 0 8px 20px rgba(0, 128, 0, 0.08);
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .voting-process {
+      background: #ADD8E6;
+      border-left: 5px solid #00008b;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      font-style: italic;
+      border-radius: 8px;
+    }
+
+    strong {
+      color: #000000;
+    }
+</style>
+</head>
+<body>
+
+   <h1>🌠Puskas Award</h1>
+
+<div class="section">
+<h2> What is the Puskas Award?</h2>
+<p>
+The <strong>FIFA Puskas Award</strong> is an annual honor given to the player (male or female) who is judged to have scored the <strong>most aesthetically significant and beautiful goal of the year</strong>. The award was established in <strong>2009</strong> by FIFA in honor of <strong>Ferenc Puskás</strong>, the legendary Hungarian striker known for his incredible goal-scoring ability and technical brilliance.
+</p>
+</div>
+
+<div class="section">
+<h2>📌 Key Facts</h2>
+<ul>
+<li>📅<strong>Interception: </strong>2009</li>
+<li>&#128100<strong>Named After: </strong>Ferenc Puskas, Hungary and Real Madrid legend
+<li>🏆<strong>Presented By: </strong> FIFA(<em>Federation Internationale de Football Association</em>)</li>
+<li>🌐<strong>Eligibility: </strong>Open to professional footballers of all genders, from any league or competition recognized by FIFA</li>
+<li>🧠<strong>Judging Criteria:</strong>
+<ul>
+        <li>Aesthetic quality of the goal</li>
+        <li>Importance of the match</li>
+        <li>Absence of luck or mistakes from the opposing team</li>
+        <li>Fair play (the goal-scorer must not have committed a foul in the lead-up)</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="section voting-process">
+🗳️<strong>Voting-Process:</strong>
+<p>Initially, fans voted online from a shortlist of nominated goals. In more recent years, voting is combined between <strong>fans and FIFA-appointed experts</strong> to determine the winner.</p>
+</div>
+<div class="section">
+<h2>🥇 Notable Winners</h2>
+<ul>
+<li><strong>Cristiano Ronaldo</strong> (2009)-for a long-range strike with Manchester United</li>
+    <li><strong>Neymar</strong> (2011)-for a stunning solo goal with Santos</li>
+    <li><strong>Mohamed Salah</strong> (2018)-for a curling strike in the Merseyside derby</li>
+    <li><strong>Son Heung-min</strong> (2020)-for a solo run goal with Tottenham Hotspur</li>
+  </ul>
+</div>
+
+</body>
+</html>
